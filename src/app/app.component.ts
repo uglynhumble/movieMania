@@ -7,7 +7,7 @@ import { TopbarComponent } from './components/topbar/topbar.component';
   standalone: true,
   imports: [RouterOutlet, TopbarComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'angular-ppet-project';
