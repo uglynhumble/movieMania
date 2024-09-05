@@ -1,0 +1,10 @@
+:root{
+    --dark-color:#000000;
+    --light-color:#ffffff;
+    --header-z-index:100;
+}
+
+body{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}

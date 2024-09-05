@@ -1,0 +1,62 @@
+.top-bar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: var(--header-z-index);
+}
+
+.full-top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.tool-bar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.top-bar-menu{
+    height: 100%;
+}
+
+.top-bar-list{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-choose{
+    margin-right: 27px;
+}
+
+.login-case{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.search{
+    margin-right: 24px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: none;
+    color: var(--light-color);
+    outline: none;
+}
+
+.profile{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: none;
+    color: var(--light-color);
+    outline: none;
+}
